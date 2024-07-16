@@ -2,11 +2,17 @@
        #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         header {visibility: hidden;}
-       .viewerBadge_link__qRIco{display: none;}
+       .viewerBadge_link__qRIco {display: none;}
        body {
               background-color: #0d1224 !important;
               color: #ffffff !important;
        }
+
+       data-testid["stAppViewBlockContainer"[ {
+                background-color: #0d1224 !important;
+              color: #ffffff !important;
+       }
+
         .header {
             text-align: center;
             background-color: #f8f9fa;
