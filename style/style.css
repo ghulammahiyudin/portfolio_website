@@ -1,0 +1,147 @@
+/*
+       #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+
+*/
+        .header {
+            text-align: center;
+            background-color: #f8f9fa;
+            width: fit-content;
+            padding: 10px;
+            border-radius: 30px;
+            position: fixed;
+            top: 20px;
+            margin-inline: auto;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 9999;
+        }
+        .header a {
+            color: #EC4899; /* Change this color as per your preference */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .header a:hover {
+            color: #0056b3; /* Change this color as per your preference */
+        }
+
+         #i-m-ghulam-mahiyudin {
+            color: #EC4899
+        }
+
+        .st-ca{
+            background-color: #EC4899;
+        }
+
+        .stButton>button {
+        background-color: #EC4899;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: 800;
+        text-transform: uppercase;
+        }
+
+        .stButton>button:hover, .stButton>button:focus {
+            background-color: white;
+            color: #EC4899;
+
+        }
+
+        .stTextInput>div>div>input {
+            padding: 10px;
+        }
+
+        .project-button {
+        background-color: #EC4899;
+        color: white !important;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none !important;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .project-button:hover {
+             background-color: white !important;
+             color: #EC4899 !important;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea {
+            margin-bottom: 20px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            background-color: white;
+            color: black;
+        }
+
+        form button {
+            background-color: #EC4899;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form button:hover {
+            background-color: white !important;
+             color: #EC4899 !important;
+        }
+
+        .contact-detail {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .contact-detail a {
+            color: #EC4899;
+            text-decoration: none;
+        }
+
+        .contact-detail a:hover {
+            text-decoration: underline;
+        }
+
+         @media screen and (max-width: 860px) {
+            .header {
+                padding: 5px;
+            }
+            .header a {
+                margin: 0 5px;
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width: 550px) {
+            .header {
+                width: 90vw;
+            }
+
+            [data-testid="stAppViewBlockContainer"] {
+                padding: 10px;
+            }
+
+            #i-m-ghulam-mahiyudin {
+            font-size: 25px;
+            color: #EC4899
+            }
+        }
