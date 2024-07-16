@@ -2,7 +2,10 @@
        #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         header {visibility: hidden;}
-       .viewerBadge_link__qRIco {display: none;}
+       .viewerBadge_container__r5tak{display: none !important} 
+       .styles_viewerBadge__CvC9N {display: none; !important}
+       .viewerBadge_link__qRIco {display: none; !important}
+
        body {
               background-color: #0d1224 !important;
               color: #ffffff !important;
