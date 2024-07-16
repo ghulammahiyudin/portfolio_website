@@ -1,26 +1,6 @@
-# .streamlit/config.toml
-
 [theme]
 primaryColor = "#0d1224"
 backgroundColor = "#0d1224"
 secondaryBackgroundColor = "#302b2a"
 textColor = "#ffffff"
 font = "sans serif"
-
-[theme.light]
-primaryColor = "#0d1224"
-backgroundColor = "#0d1224"
-secondaryBackgroundColor = "#302b2a"
-textColor = "#ffffff"
-
-[theme.dark]
-primaryColor = "#0d1224"
-backgroundColor = "#0d1224"
-secondaryBackgroundColor = "#302b2a"
-textColor = "#ffffff"
-
-[theme.custom]
-primaryColor = "#0d1224"
-backgroundColor = "#0d1224"
-secondaryBackgroundColor = "#302b2a"
-textColor = "#ffffff"
